@@ -1,0 +1,37 @@
+##### NOTICE
+##### change the parameters if necessary
+
+
+##### 16S Gene Database
+# database id
+gg=GreenGenes
+# sequence reference
+ggref=/data/fzeng/Genome/OTU/GreenGenes/gg_13_8_otus/rep_set/97_otus.fasta
+# taxonomy
+ggtax=/data/fzeng/Genome/OTU/GreenGenes/gg_13_8_otus/taxonomy/97_otu_taxonomy.txt
+# bowtie2 index 
+ggidx=/data/fzeng/Genome/OTU/GreenGenes/gg_13_8_otus/index/bt2/97_otus.fasta
+
+
+
+##### auxiliary programs
+vsearch=/home/fzeng/Tool/MetagenomeTools/vsearch/bin/vsearch
+straincall=/data/fzeng/Project/GeneSetAnalysis/dist/StrainCall/StrainCall
+
+
+##### global setting
+# number of threads to be used
+cpus=20
+# abundance threshold for picking candidate clades
+rel_abun_thresh=0.01
+abs_abun_thresh=2
+# size threshold for vsearch dereplication
+derep_minsize=2
+# initial sequencing error rate
+error_rate=0.01
+# pvalue threshold for poisson testing
+poisson_thresh=1e-10
+# disimilarity threshold for OTU picking
+otu_thresh=0.97
+# pvalue threshold for testing whether a rare candidate clade is noise or not
+rare_test_pvalue=0.05

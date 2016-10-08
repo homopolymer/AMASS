@@ -1,0 +1,1 @@
+Mock1	/data/fzeng/Project/AmpliconAssembly/experiment/SOP_mock21/130403/Mock_v4/Mock1/Mock1_S1_L001_R1_001.trim.contigs.good.ng.trim.fasta
